@@ -3,9 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 import HeaderLinks from '../Header/HeaderLinks.jsx';
 
-import imagine from 'assets/img/sidebar-3.jpg';
-import logo from 'assets/img/reactlogo.png';
-
 import appRoutes from 'routes/app.jsx';
 
 class Sidebar extends Component{
@@ -26,22 +23,11 @@ class Sidebar extends Component{
         window.addEventListener("resize", this.updateDimensions.bind(this));
     }
     render(){
-        const sidebarBackground = {
-            backgroundImage: 'url(' + imagine + ')'
-        };
         return (
-            <div id="sidebar" className="sidebar" data-color="black" data-image={imagine}>
-                <div className="sidebar-background" style={sidebarBackground}></div>
+            <div id="sidebar" className="sidebar" data-color="grey" >
+                <div className="sidebar-background" ></div>
                     <div className="logo">
-                        <a href="https://www.creative-tim.com" className="simple-text logo-mini">
-                            <div className="logo-img">
-                                <img src={logo} alt="logo_image"/>
-                            </div>
-
-                        </a>
-                        <a href="https://www.creative-tim.com" className="simple-text logo-normal">
-                            Creative Tim
-                        </a>
+                            <h3>SALUS TECH</h3>
                     </div>
                 <div className="sidebar-wrapper">
                     <ul className="nav">

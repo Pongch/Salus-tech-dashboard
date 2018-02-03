@@ -434,6 +434,12 @@ body > .navbar-collapse[data-color="purple"]:after {
   background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%);
   background-size: 150% 150%; }
 
+  .sidebar[data-color="grey"]:after,
+  body > .navbar-collapse[data-color="grey"]:after {
+    background: #f9f9f9;
+    color:black!important;
+    background-size: 150% 150%; }
+
 .main-panel {
   background: rgba(203, 203, 210, 0.15);
   position: relative;

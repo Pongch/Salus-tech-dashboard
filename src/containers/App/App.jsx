@@ -43,10 +43,11 @@ class App extends Component {
                 break;
         }
         this.state._notificationSystem.addNotification({
-            title: (<span data-notify="icon" className="pe-7s-gift"></span>),
+            title: (<span data-notify="icon" className="fa fa-search"></span>),
             message: (
                 <div>
-                    Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer.
+                You are currently viewing <b>Paul Johnson</b>s
+                Space Dashboard
                 </div>
             ),
             level: level,
@@ -57,7 +58,7 @@ class App extends Component {
     componentDidMount(){
         this.setState({_notificationSystem: this.refs.notificationSystem});
         var _notificationSystem = this.refs.notificationSystem;
-        var color = Math.floor((Math.random() * 4) + 1);
+        var color = 2;
         var level;
         switch (color) {
             case 1:
@@ -76,10 +77,11 @@ class App extends Component {
                 break;
         }
         _notificationSystem.addNotification({
-            title: (<span data-notify="icon" className="pe-7s-gift"></span>),
+            title: (<span data-notify="icon" className="fa fa-search"></span>),
             message: (
                 <div>
-                    Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer.
+                    You are currently viewing <b>Paul Johnson</b>s
+                    Space Dashboard
                 </div>
             ),
             level: level,
