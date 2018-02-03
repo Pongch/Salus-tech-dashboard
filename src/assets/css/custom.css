@@ -13,8 +13,28 @@ div#sidebar.sidebar{
   color:black!important;
 }
 
+.main-panel {
+    background: black;
+    position: relative;
+    float: right;
+    width: calc(100% - 260px);
+}
+
+@media only screen and (max-width:960px){
+  .main-panel {
+      background: white;
+      position: relative;
+      float: right;
+      width: 100%!important;
+  }
+}
+
 div.sidebar-wrapper ul.nav li a{
-  color:#333333!important;
+  color:black!important;
+}
+
+div#sidebar.sidebar{
+  background-color: white!important;
 }
 
 .sidebar .nav li.active > a {
@@ -44,3 +64,10 @@ div.sidebar-wrapper ul.nav li a{
     background-color: #FFFFFF;
     margin-bottom: 30px;
   }
+
+  .sidebar:after, body > .navbar-collapse:after {
+    background: #BEBEBE;
+    background-size: 150% 150%;
+    z-index: 3;
+    opacity: 1;
+}

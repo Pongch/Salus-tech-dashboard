@@ -36,11 +36,11 @@ class Dashboard extends Component {
         return (
             <div className="content">
                 <Grid fluid>
-                    <Row>
-                      <Col lg={3} sm={6}>
-                        <h2 className="dash-title">DASHBOARD</h2>
-                      </Col>
-                    </Row>
+                <Row>
+                  <Col lg={3} sm={6}>
+                    <h2 className="dash-title">DASHBOARD</h2>
+                  </Col>
+                </Row>
                     <Row>
                         <Col lg={3} sm={6}>
                             <StatsCard

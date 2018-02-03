@@ -24,7 +24,7 @@ class Sidebar extends Component{
     }
     render(){
         return (
-            <div id="sidebar" className="sidebar" data-color="grey" >
+            <div id="sidebar" className="sidebar" >
                 <div className="sidebar-background" ></div>
                     <div className="logo">
                             <h3>SALUS TECH</h3>
