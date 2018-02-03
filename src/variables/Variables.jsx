@@ -250,14 +250,21 @@ var style = {
 // // // For tables
 // //
 //
-const thArray = ["ID","Name","Salary","Country","City"];
+const thArray = ["ID","Name","Code","Check-in","Check-out", "Status"];
 const tdArray = [
-    [ "1" , "Dakota Rice" , "$36,738" , "Niger" , "Oud-Turnhout" ] ,
-    [ "2" , "Minerva Hooper" , "$23,789" , "Curaçao" , "Sinaai-Waas" ] ,
-    [ "3" , "Sage Rodriguez" , "$56,142" , "Netherlands" , "Baileux" ] ,
-    [ "4" , "Philip Chaney" , "$38,735" , "Korea, South" , "Overland Park" ] ,
-    [ "5" , "Doris Greene" , "$63,542" , "Malawi" , "Feldkirchen in Kärnten" ] ,
-    [ "6" , "Mason Porter" , "$78,615" , "Chile" , "Gloucester" ]
+    [ "14323" , "Dakota Rice" , "532152" , "1/4/18, 18:22" , "1/4/18, 7:30", "Visitor" ] ,
+    [ "14324" , "Dakota Rice" , "532152" , "1/5/18, 10:20" , "1/5/18, 14:35", "Visitor" ] ,
+    [ "14325" , "Dakota Rice" , "532152" , "1/6/18, 8:42" , "1/6/18, 18:45", "Visitor" ] ,
+    [ "14326" , "Philip Chaney" , "48516" , "1/7/18, 9:45" , "1/7/18, 11:54", "Renter" ] ,
+    [ "14327" , "Doris Greene" , "63542" , "1/7/18, 10:50" , "1/7/18, 14:12", "Renter" ] ,
+    [ "14328" , "Philip Chaney" , "48516" , "1/7/18, 12:10" , "1/7/18, 15:10", "Renter" ],
+    [ "14329" , "Philip Chaney" , "48516" , "1/7/18, 14:38" , "1/7/18, 16:21", "Renter" ],
+    [ "14330" , "Doris Greene" , "63542" , "1/8/18, 15:42" , "1/8/18, 17:14", "Renter" ],
+    [ "14331" , "Doris Greene" , "63542" , "1/9/18, 16:57" , "1/9/18, 18:21", "Renter" ],
+    [ "14332" , "Doris Greene" , "63542", "1/10/18, 19:40" , "1/10/18, 22:23", "Renter" ],
+    [ "14333" , "Doris Greene" , "63542" , "1/12/18, 8:20" , "1/12/18, 23:21", "Renter" ],
+    [ "14334" , "Dakota Rice" , "532152" , "1/12/18, 19:45" , "1/12/18, 12:21", "Visitor" ]
+
 ];
 
 

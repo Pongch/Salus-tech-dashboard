@@ -66,8 +66,12 @@ div#sidebar.sidebar{
   }
 
   .sidebar:after, body > .navbar-collapse:after {
-    background: #BEBEBE;
+    background: #E8E8E8;
     background-size: 150% 150%;
     z-index: 3;
     opacity: 1;
+}
+
+button.btn-lg.btn-primary {
+
 }

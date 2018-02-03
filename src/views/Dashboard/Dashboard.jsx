@@ -37,8 +37,8 @@ class Dashboard extends Component {
             <div className="content">
                 <Grid fluid>
                 <Row>
-                  <Col lg={3} sm={6}>
-                    <h2 className="dash-title">DASHBOARD</h2>
+                  <Col lg={4} sm={6}>
+                    <h2 className="dash-title">PAUL JOHNSON's DASHBOARD</h2>
                   </Col>
                 </Row>
                     <Row>

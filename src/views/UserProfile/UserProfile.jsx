@@ -26,19 +26,19 @@ class UserProfile extends Component {
                                             ncols = {["col-md-5" , "col-md-3" , "col-md-4"]}
                                             proprieties = {[
                                                 {
-                                                 label : "Company (disabled)",
+                                                 label : "Host For",
                                                  type : "text",
                                                  bsClass : "form-control",
                                                  placeholder : "Company",
-                                                 defaultValue : "Creative Code Inc.",
+                                                 defaultValue : "AirBnb",
                                                  disabled : true
                                                 },
                                                 {
-                                                 label : "Username",
+                                                 label : "Host Status",
                                                  type : "text",
                                                  bsClass : "form-control",
-                                                 placeholder : "Username",
-                                                 defaultValue : "michael23"
+                                                 placeholder : "Host Status",
+                                                 defaultValue : "Valid"
                                                 },
                                                 {
                                                  label : "Email address",
@@ -56,14 +56,14 @@ class UserProfile extends Component {
                                                  type : "text",
                                                  bsClass : "form-control",
                                                  placeholder : "First name",
-                                                 defaultValue : "Mike"
+                                                 defaultValue : "Paul"
                                                 },
                                                 {
                                                  label : "Last name",
                                                  type : "text",
                                                  bsClass : "form-control",
                                                  placeholder : "Last name",
-                                                 defaultValue : "Andrew"
+                                                 defaultValue : "Johnson"
                                                 }
                                             ]}
                                         />
@@ -75,7 +75,7 @@ class UserProfile extends Component {
                                                     type : "text",
                                                     bsClass : "form-control",
                                                     placeholder : "Home Adress",
-                                                    defaultValue : "Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+                                                    defaultValue : "921 Soi 18, Sukhumvit, 10253 "
                                                 }
                                             ]}
                                         />
@@ -87,14 +87,14 @@ class UserProfile extends Component {
                                                     type : "text",
                                                     bsClass : "form-control",
                                                     placeholder : "City",
-                                                    defaultValue : "Mike"
+                                                    defaultValue : "Bangkok"
                                                 },
                                                 {
                                                     label : "Country",
                                                     type : "text",
                                                     bsClass : "form-control",
                                                     placeholder : "Country",
-                                                    defaultValue : "Andrew"
+                                                    defaultValue : "Thailand"
                                                 },
                                                 {
                                                     label : "Postal Code",
@@ -108,8 +108,8 @@ class UserProfile extends Component {
                                         <Row>
                                             <Col md={12}>
                                                 <FormGroup controlId="formControlsTextarea">
-                                                    <ControlLabel>About Me</ControlLabel>
-                                                    <FormControl rows="5" componentClass="textarea" bsClass="form-control" placeholder="Here can be your description" defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."/>
+                                                    <ControlLabel>Notes</ControlLabel>
+                                                    <FormControl rows="5" componentClass="textarea" bsClass="form-control" placeholder="Set Notes" defaultValue=""/>
                                                 </FormGroup>
                                             </Col>
                                         </Row>
@@ -130,24 +130,8 @@ class UserProfile extends Component {
                             <UserCard
                                 bgImage="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400"
                                 avatar={avatar}
-                                name="Mike Andrew"
-                                userName="michael24"
-                                description={
-                                    <span>
-                                        "Lamborghini Mercy
-                                        <br />
-                                        Your chick she so thirsty
-                                        <br />
-                                        I'm in that two seat Lambo"
-                                    </span>
-                                }
-                                socials={
-                                    <div>
-                                        <Button simple><i className="fa fa-facebook-square"></i></Button>
-                                        <Button simple><i className="fa fa-twitter"></i></Button>
-                                        <Button simple><i className="fa fa-google-plus-square"></i></Button>
-                                    </div>
-                                }
+                                name="Paul Johnson"
+                                userName="AirBnb Host"
                             />
                         </Col>
 

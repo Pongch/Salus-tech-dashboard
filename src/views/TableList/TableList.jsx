@@ -3,6 +3,7 @@ import { Grid, Row, Col, Table } from 'react-bootstrap';
 
 import Card from 'components/Card/Card.jsx';
 import {thArray, tdArray} from 'variables/Variables.jsx';
+import Button from 'elements/CustomButton/CustomButton.jsx';
 
 class TableList extends Component {
 
@@ -13,8 +14,8 @@ class TableList extends Component {
                     <Row>
                         <Col md={12}>
                             <Card
-                                title="Striped Table with Hover"
-                                category="Here is a subtitle for this table"
+                                title="VISITS DATA"
+                                category="Raw data about each visits"
                                 ctTableFullWidth ctTableResponsive
                                 content={
                                     <Table striped hover>
@@ -48,47 +49,18 @@ class TableList extends Component {
                                 }
                             />
                         </Col>
-
-
-                        <Col md={12}>
-                            <Card
-                                plain
-                                title="Striped Table with Hover"
-                                category="Here is a subtitle for this table"
-                                ctTableFullWidth ctTableResponsive
-                                content={
-                                    <Table hover>
-                                        <thead>
-                                            <tr>
-                                                {
-                                                    thArray.map((prop, key) => {
-                                                        return (
-                                                        <th  key={key}>{prop}</th>
-                                                        );
-                                                    })
-                                                }
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {
-                                                tdArray.map((prop,key) => {
-                                                    return (
-                                                        <tr key={key}>{
-                                                            prop.map((prop,key)=> {
-                                                                return (
-                                                                    <td  key={key}>{prop}</td>
-                                                                );
-                                                            })
-                                                        }</tr>
-                                                    )
-                                                })
-                                            }
-                                        </tbody>
-                                    </Table>
-                                }
-                            />
-                        </Col>
-
+                    </Row>
+                    <Row>
+                      <Col md={12}>
+                        <Button
+                            bsStyle="info"
+                            pullRight
+                            fill
+                            type="submit"
+                        >
+                            Download Data as CSV
+                        </Button>
+                      </Col>
                     </Row>
                 </Grid>
             </div>

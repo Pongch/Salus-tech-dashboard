@@ -27,7 +27,7 @@ class Sidebar extends Component{
             <div id="sidebar" className="sidebar" >
                 <div className="sidebar-background" ></div>
                     <div className="logo">
-                            <h3>SALUS TECH</h3>
+                            <h3>SALUS NETWORK</h3>
                     </div>
                 <div className="sidebar-wrapper">
                     <ul className="nav">
