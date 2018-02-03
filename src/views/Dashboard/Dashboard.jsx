@@ -16,6 +16,7 @@ import {
     responsiveBar,
     legendBar
 } from 'variables/Variables.jsx';
+import node from "assets/img/faces/networknode.png";
 
 class Dashboard extends Component {
     createLegend(json){
@@ -38,24 +39,24 @@ class Dashboard extends Component {
                 <Grid fluid>
                 <Row>
                   <Col lg={4} sm={6}>
-                    <h2 className="dash-title">PAUL JOHNSON's DASHBOARD</h2>
+                    <h2 className="dash-title">SALUS NETWORK DASHBOARD</h2>
                   </Col>
                 </Row>
                     <Row>
                         <Col lg={3} sm={6}>
                             <StatsCard
                                 bigIcon={<i className="pe-7s-server text-warning"></i>}
-                                statsText="Capacity"
+                                statsText="Data"
                                 statsValue="107GB"
                                 statsIcon={<i className="fa fa-refresh"></i>}
-                                statsIconText="Updated now"
+                                statsIconText="Aggregated in the last hour"
                             />
                         </Col>
                         <Col lg={3} sm={6}>
                             <StatsCard
                                 bigIcon={<i className="pe-7s-wallet text-success"></i>}
-                                statsText="Revenue"
-                                statsValue="$1,345"
+                                statsText="Daily Active Users"
+                                statsValue="10M"
                                 statsIcon={<i className="fa fa-calendar-o"></i>}
                                 statsIconText="Last day"
                             />
@@ -63,17 +64,17 @@ class Dashboard extends Component {
                         <Col lg={3} sm={6}>
                             <StatsCard
                                 bigIcon={<i className="pe-7s-graph1 text-danger"></i>}
-                                statsText="Errors"
+                                statsText="Lock Replacement"
                                 statsValue="23"
                                 statsIcon={<i className="fa fa-clock-o"></i>}
-                                statsIconText="In the last hour"
+                                statsIconText="Dispatched In the last hour"
                             />
                         </Col>
                         <Col lg={3} sm={6}>
                             <StatsCard
-                                bigIcon={<i className="fa fa-twitter text-info"></i>}
-                                statsText="Followers"
-                                statsValue="+45"
+                                bigIcon={<i className="fa fa-address-card text-info"></i>}
+                                statsText="Active Application Users"
+                                statsValue="45M"
                                 statsIcon={<i className="fa fa-refresh"></i>}
                                 statsIconText="Updated now"
                             />
@@ -84,7 +85,7 @@ class Dashboard extends Component {
                             <Card
                                 statsIcon="fa fa-history"
                                 id="chartHours"
-                                title="Users Behavior"
+                                title="USERS BEHAVIOR"
                                 category="24 Hours performance"
                                 stats="Updated 3 minutes ago"
                                 content={
@@ -107,9 +108,9 @@ class Dashboard extends Component {
                         <Col md={4}>
                             <Card
                                 statsIcon="fa fa-clock-o"
-                                title="Email Statistics"
-                                category="Last Campaign Performance"
-                                stats="Campaign sent 2 days ago"
+                                title="USERS STATISTICS"
+                                category="% of User Types"
+                                stats="Updated 3 seconds ago in ASEAN"
                                 content={
                                     <div id="chartPreferences" className="ct-chart ct-perfect-fourth">
                                         <ChartistGraph data={dataPie} type="Pie"/>
@@ -128,8 +129,8 @@ class Dashboard extends Component {
                         <Col md={6}>
                             <Card
                                 id="chartActivity"
-                                title="2014 Sales"
-                                category="All products including Taxes"
+                                title="NEW USERS"
+                                category="New Onboarding Users/Month"
                                 stats="Data information certified"
                                 statsIcon="fa fa-check"
                                 content={
@@ -152,16 +153,12 @@ class Dashboard extends Component {
 
                         <Col md={6}>
                             <Card
-                                title="Tasks"
-                                category="Backend development"
+                                title="NETWORK IOT MAP"
+                                category="Overall Visualization of Salus Network"
                                 stats="Updated 3 minutes ago"
                                 statsIcon="fa fa-history"
                                 content={
-                                    <div className="table-full-width">
-                                        <table className="table">
-                                            <Tasks />
-                                        </table>
-                                    </div>
+                                    <img className="img-responsive" src={'https://media.licdn.com/mpr/mpr/p/1/005/0b5/027/14c729e.png'} />
                                 }
                             />
                         </Col>

@@ -253,17 +253,17 @@ var style = {
 const thArray = ["ID","Name","Code","Check-in","Check-out", "Status"];
 const tdArray = [
     [ "14323" , "Dakota Rice" , "532152" , "1/4/18, 18:22" , "1/4/18, 7:30", "Visitor" ] ,
-    [ "14324" , "Dakota Rice" , "532152" , "1/5/18, 10:20" , "1/5/18, 14:35", "Visitor" ] ,
-    [ "14325" , "Dakota Rice" , "532152" , "1/6/18, 8:42" , "1/6/18, 18:45", "Visitor" ] ,
-    [ "14326" , "Philip Chaney" , "48516" , "1/7/18, 9:45" , "1/7/18, 11:54", "Renter" ] ,
-    [ "14327" , "Doris Greene" , "63542" , "1/7/18, 10:50" , "1/7/18, 14:12", "Renter" ] ,
-    [ "14328" , "Philip Chaney" , "48516" , "1/7/18, 12:10" , "1/7/18, 15:10", "Renter" ],
-    [ "14329" , "Philip Chaney" , "48516" , "1/7/18, 14:38" , "1/7/18, 16:21", "Renter" ],
-    [ "14330" , "Doris Greene" , "63542" , "1/8/18, 15:42" , "1/8/18, 17:14", "Renter" ],
-    [ "14331" , "Doris Greene" , "63542" , "1/9/18, 16:57" , "1/9/18, 18:21", "Renter" ],
-    [ "14332" , "Doris Greene" , "63542", "1/10/18, 19:40" , "1/10/18, 22:23", "Renter" ],
-    [ "14333" , "Doris Greene" , "63542" , "1/12/18, 8:20" , "1/12/18, 23:21", "Renter" ],
-    [ "14334" , "Dakota Rice" , "532152" , "1/12/18, 19:45" , "1/12/18, 12:21", "Visitor" ]
+    [ "14324" , "Stefanie Rice" , "532152" , "1/5/18, 10:20" , "1/5/18, 14:35", "Owner" ] ,
+    [ "14325" , "Paul Graham" , "530965" , "1/5/18, 8:42" , "1/5/18, 18:45", "Visitor" ] ,
+    [ "14326" , "Philip K. D" , "48516" , "1/5/18, 9:45" , "1/5/18, 11:54", "Renter" ] ,
+    [ "14327" , "Jonathan Stephan" , "6323442" , "1/6/18, 10:50" , "1/6/18, 14:12", "Renter" ] ,
+    [ "14328" , "Gain K." , "558693" , "1/6/18, 12:10" , "1/6/18, 15:10", "Renter" ],
+    [ "14329" , "Katie Stone" , "5952349" , "1/6/18, 14:38" , "1/6/18, 16:21", "Owner" ],
+    [ "14330" , "Wong De Fung" , "5960301" , "1/6/18, 15:42" , "1/6/18, 17:14", "Renter" ],
+    [ "14331" , "Kristina Butern" , "419968" , "1/7/18, 16:57" , "1/7/18, 18:21", "Renter" ],
+    [ "14332" , "Wei Wei Chi" , "968921", "1/7/18, 19:40" , "1/7/18, 22:23", "Renter" ],
+    [ "14333" , "Kamolpat Kantana" , "06019351" , "1/8/18, 8:20" , "1/8/18, 23:21", "Owner" ],
+    [ "14334" , "Dominik Tores" , "658252" , "1/8/18, 19:45" , "1/8/18, 12:21", "Visitor" ]
 
 ];
 
@@ -489,7 +489,7 @@ var dataPie = {
     series: [40, 20, 40]
 };
 var legendPie = {
-    names: ["Open","Bounce","Unsubscribe"],
+    names: ["Renters","Visitors","Owners"],
     types: ["info","danger","warning"]
 };
 
@@ -528,7 +528,7 @@ var responsiveSales = [
   }]
 ];
 var legendSales = {
-    names: ["Open","Click","Click Second Time"],
+    names: ["Renters","Visitors","Owners"],
     types: ["info","danger","warning"]
 };
 
@@ -558,7 +558,7 @@ var responsiveBar = [
   }]
 ];
 var legendBar = {
-    names: ["Tesla Model S","BMW 5 Series"],
+    names: ["Thailand","Vietnam"],
     types: ["info","danger"]
 };
 

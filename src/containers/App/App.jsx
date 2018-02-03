@@ -46,8 +46,7 @@ class App extends Component {
             title: (<span data-notify="icon" className="fa fa-search"></span>),
             message: (
                 <div>
-                You are currently viewing <b>Paul Johnson</b>s
-                Space Dashboard
+                Welcome to the <b>Salus Network</b>, Admin
                 </div>
             ),
             level: level,
@@ -80,8 +79,7 @@ class App extends Component {
             title: (<span data-notify="icon" className="fa fa-search"></span>),
             message: (
                 <div>
-                    You are currently viewing <b>Paul Johnson</b>s
-                    Space Dashboard
+                    Welcome to the <b>Salus Network</b>, Admin
                 </div>
             ),
             level: level,

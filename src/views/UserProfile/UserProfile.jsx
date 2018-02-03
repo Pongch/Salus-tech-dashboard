@@ -132,6 +132,12 @@ class UserProfile extends Component {
                                 avatar={avatar}
                                 name="Paul Johnson"
                                 userName="AirBnb Host"
+                                description={
+                                    <span>
+                                      <br />
+                                      1x Salus Lock: Front Door
+                                    </span>
+                                }
                             />
                         </Col>
 

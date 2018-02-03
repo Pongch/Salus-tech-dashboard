@@ -19,7 +19,6 @@ class HeaderLinks extends Component{
                     </NavItem>
                 </Nav>
                 <Nav pullRight>
-                    <NavItem eventKey={1} href="#">Switch Account</NavItem>
                     <NavItem eventKey={3} href="#">Log out</NavItem>
                 </Nav>
             </div>
